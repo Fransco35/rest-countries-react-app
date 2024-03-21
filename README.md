@@ -41,6 +41,6 @@ State management in this project can also be handled using the react Context API
 
 ## Author
 
-- Website - [Francis Inegbenose](https://www.francisinegbenose.vercel.app)
-- Frontend Mentor - [@Fransco35](https://www.frontendmentor.io/profile/Fransco35)
-- Linkedin - [@Francis-Inegbenose](https://www.linkedin.com/in/francis-inegbenose)
+- Website - (https://www.francisinegbenose.vercel.app)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/Fransco35)
+- Linkedin - (https://www.linkedin.com/in/francis-inegbenose)
