@@ -6,13 +6,6 @@
   padding: 20px;
 }
 
-@media screen and (max-width: 425px) {
-  .breadcrumbs {
-    flex-direction: column;
-    align-items: start;
-  }
-}
-
 .breadcrumbsInput {
   display: flex;
   border-radius: 20px;
@@ -25,6 +18,7 @@
 @media screen and (max-width: 430px) {
   .breadcrumbs {
     flex-direction: column;
+    align-items: start;
   }
 
   .breadcrumbsInput {

@@ -29,14 +29,14 @@ function Countries(props) {
   function handleSearch(event) {
     event.preventDefault();
 
-    // First, get the country entered as the input value
+    //A. First, get the country entered as the input value
     const inputValue = searchRef.current.value.toLowerCase();
 
-    // After the search is complete clicking the enter/return button again will make the list countries to be re-rendered
+    //C. After the search is complete clicking the enter/return button again will make the list countries to be re-rendered. This is step 3, after the search has been conducted
     if (!inputValue.trim()) {
       setFilteredCountries(data);
     } else {
-      // Next, search the countries array for the entered country value.
+      //B. Next, search the countries array for the entered country value.
       // There are two case scenarios to check before filtering through the array.
       // 1. Check if the filteredCountries value is true - i.e if it the countries has been filtered before.
       // 2. if it hasn't been filtered before then the normal countries array will be filtered
@@ -109,6 +109,7 @@ function Countries(props) {
   }
 
   const pageData = filteredCountries ? filteredCountries : countries;
+
   const countriesList = toggleColor
     ? "countriesListLight"
     : "countriesListDark";

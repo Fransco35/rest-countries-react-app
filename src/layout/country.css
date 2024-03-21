@@ -49,6 +49,10 @@
   padding-left: 20px;
 }
 
+.borderCountries span {
+  font-weight: 700;
+}
+
 .borderCountry {
   margin: 0 15px;
   box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.24);
@@ -69,8 +73,8 @@
   .row {
     flex-direction: column;
   }
-  .col {
-    display: block;
+  .countryDetails {
+    display: block !important;
   }
 
   .countryDetails li {
@@ -83,6 +87,7 @@
 
   .borderCountries {
     display: block;
+    padding-left: 30px;
   }
 
   .borderCountry {
