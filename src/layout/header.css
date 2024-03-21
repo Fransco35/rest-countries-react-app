@@ -1,0 +1,39 @@
+.header {
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.24);
+  padding: 15px 0;
+}
+
+.headerDark {
+  background-color: hsl(209, 23%, 22%);
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header h1 {
+  font-size: 18px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerToggle {
+  font-weight: bold;
+}
+
+.headerToggle span {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.headerToggle span:hover {
+  background-color: hsl(0, 12%, 82%);
+}

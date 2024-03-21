@@ -1,0 +1,122 @@
+.breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .breadcrumbs {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+.breadcrumbsInput {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.24);
+  gap: 10px;
+  padding: 15px;
+  width: 40%;
+}
+
+@media screen and (max-width: 430px) {
+  .breadcrumbs {
+    flex-direction: column;
+  }
+
+  .breadcrumbsInput {
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.breadcrumbsInputLight {
+  background-color: #fff;
+}
+.breadcrumbsInputDark {
+  background-color: hsl(209, 23%, 22%);
+}
+
+.breadcrumbsInputDark:focus {
+  color: #fff;
+}
+
+.searchSelect {
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.24);
+  padding: 10px;
+  width: 200px;
+}
+
+.searchSelectDark {
+  border: none;
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.searchInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.searchInputLight::placeholder {
+  color: #000;
+}
+
+.searchInputDark,
+.searchInputDark::placeholder {
+  color: #fff;
+}
+
+.countryLink {
+  text-decoration: none;
+}
+
+.countryCard {
+  border: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+  width: 16rem;
+  margin: 10px 0;
+  transition: all 0.3s;
+}
+
+.countryCardLight {
+  background-color: hsl(0, 0, 100%);
+  color: hsl(200, 15%, 8%);
+}
+
+.countryCardDark {
+  background-color: hsl(209, 23%, 22%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.countryCard:hover {
+  scale: 1.1;
+}
+
+.countryItems {
+  font-size: 14px;
+}
+
+.countryItemsDark {
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 100%);
+}
+
+.list-group-item {
+  background-color: inherit !important;
+  color: inherit !important;
+}
