@@ -18,7 +18,7 @@ A countries-list web application where users are able to:
 ### Links
 
 - Github URL: (https://github.com/Fransco35/rest-countries-react-app)
-- Live Site URL: [Add live site URL here](https://rest-countries-react.vercel.app)
+- Live Site URL: [Add live site URL here](https://rest-countries-reactjs.vercel.app)
 
 ### Built with
 
@@ -33,7 +33,8 @@ A countries-list web application where users are able to:
 
 - I first of all used the data.json() in the folder structure to make my API calls before using the Rest Countries API. This enabled me setup the project quicker and I avoided making too many unnecessary API calls
 - The API is currently running in V3.1 so I reverted to V2 because it had the matching key value pairs that matched the data.json() file
-- I made a lot of comments in my functions to enable readers understand them and my thought process. Please read them along with the code for fast and easy understanding
+- I made a lot of comments in my functions to enable readers understand them and my thought process. Please read them along with the code for fast and easy understanding.
+- For some countries,there are some keys with empty values in them e.g the border countries key value pair. My workaround was to first of all check if the values are available. If the value returns true then i'll render it, else if it is false I'll render a text which says "not included"
 
 ### Continued development
 
