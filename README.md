@@ -1,6 +1,6 @@
 ## Overview
 
-### What I buit
+### What I built
 
 A countries-list web application where users are able to:
 
